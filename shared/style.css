@@ -1,0 +1,67 @@
+/* HEADER */
+.navbar {
+    background-color: rgb(55, 47, 47);
+}
+
+.nav-bg-colour {
+    --bs-bg-opacity: 1;
+    background-color: rgb(101 118 135) !important;
+}
+
+.btn-outline-light {
+    --bs-btn-hover-bg: #76c378;
+}
+
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* MAIN */
+main {
+    flex-grow: 1; /* Allows the main content to expand and push the footer down */
+    margin-top: 80px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#introduction{
+    text-align: center;
+}
+
+.container {
+    text-align: center !important;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #333;
+}
+
+.col{
+   margin-bottom: 2rem;
+}
+
+.card {
+    cursor: pointer;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: rgb(101, 118, 135);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 0px;
+}

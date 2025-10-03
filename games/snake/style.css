@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  margin-top: 3.8rem;
+  /* overflow: hidden;  */
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+canvas {
+  border: 2px solid white;
+  background-color: black;
+  max-width: 100%;
+}
+
+#playAgain {
+  margin: 20px auto;
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#playAgain:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  canvas {
+    width: 90vw; /* Make the canvas take up most of the screen */
+    height: 90vw;
+  }
+
+  #playAgain {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}

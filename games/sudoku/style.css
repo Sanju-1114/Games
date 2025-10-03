@@ -1,0 +1,222 @@
+main{
+    background-color: #548687;
+}
+/* Title */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Timer */
+#timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px auto; /* Centers horizontally */
+    padding: 10px 15px;
+    background-color: #1c70ca;
+    color: white;
+    display: block; /* Makes the element behave like a block-level element */
+    border-radius: 8px;
+    width: fit-content; /* Ensures the width adjusts based on content */
+}
+
+/* Sudoku Board */
+#board {
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+    grid-template-rows: repeat(9, 50px);
+    gap: 2px;
+    margin: 20px auto;
+    max-width: 29.7rem;
+    background-color: #222;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Sudoku Cells */
+.cell {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+/* Grid Border Styling */
+.cell:nth-child(3n) {
+    border-right: 3px solid black;
+}
+.cell:nth-child(27n) {
+    border-bottom: 3px solid black;
+}
+/* Styling for disabled cells (Before Start) */
+.cell.disabled {
+    cursor: not-allowed;
+    background-color: #f0f0f0;
+}
+
+/* Fixed Cells (Pre-Filled) */
+.fixed {
+    background-color: #ddd;
+    color: #555;
+    cursor: default;
+}
+
+/* Number Selector */
+#number-selector {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+/* Highlighting Selected Number */
+.number:hover,
+.cell:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Button Styling */
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Solve Button */
+#solve-button {
+    background-color: #28a745;
+}
+
+#solve-button:hover {
+    background-color: #1e7e34;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    /* Title */
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    /* Timer */
+    #timer {
+        font-size: 1.3rem;
+        padding: 8px 12px;
+    }
+
+    /* Sudoku Board */
+    #board {
+        grid-template-columns: repeat(9, 40px);
+        grid-template-rows: repeat(9, 40px);
+        max-width: 90%;
+    }
+
+    /* Sudoku Cells */
+    .cell {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    /* Number Selector */
+    #number-selector {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+    .number {
+        width: 35px;
+        height: 35px;
+        font-size: 1.2rem;
+    }
+
+    /* Buttons */
+    button {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+
+    /* Solve Button */
+    #solve-button {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust for very small screens */
+    #board {
+        grid-template-columns: repeat(9, 35px);
+        grid-template-rows: repeat(9, 35px);
+    }
+
+    .cell {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    .number {
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.85rem;
+        padding: 8px 12px;
+    }
+
+    #timer {
+        font-size: 1rem;
+        padding: 8px 12px;
+    }
+}

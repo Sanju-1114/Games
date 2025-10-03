@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameHub - Typing Test</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../shared/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary nav-bg-colour fixed-top"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html">
+            <img
+              class="logo"
+              src="../../assets/images/logo.png"
+              alt="GameHub logo"
+            />GameHub
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Games</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../tic-tac-toe/"
+                      >Tic-Tac-Toe</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../rock-paper-scissors/"
+                      >Rock Paper Scissors</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../flip-coin-toss/"
+                      >Flip Coin Toss</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../sudoku/">Sudoku</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../snake/">Snake Game</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../typing-test/"
+                      >Typing Test</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="../2048/">2048</a></li>
+                  <li>
+                    <a class="dropdown-item" href="../dot-and-boxes/"
+                      >Dot And Boxes</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="../ludo/">Ludo</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-light nav-btn-search"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <h2>First Player to 5 Points Win!</h2>
+
+      <section>
+        <div class="selected">
+          <p>Player Selected:<span class="p-sel"></span></p>
+          <p>Computer Selected:<span class="c-sel"></span></p>
+        </div>
+        <div class="result">
+          <div class="winner"></div>
+          <div id="image"></div>
+        </div>
+        <div class="score">
+          <p>Player Score: <span class="p-score">0</span></p>
+          <p>Computer Score: <span class="c-score">0</span></p>
+        </div>
+        <div class="button-section">
+          <h4 class="selection">Make a Selection</h4>
+          <button class="play-button">heads</button>
+          <button class="play-button">tails</button>
+          <button class="restart-button hide">restart</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 GameHub. All rights reserved.</p>
+        <p>
+          Follow us on:
+          <a href="#" style="color: white"
+            ><i class="fa-brands fa-facebook"></i>Facebook</a
+          >
+          |
+          <a href="#" style="color: white"
+            ><i class="fa-brands fa-x-twitter"></i>Twitter</a
+          >
+          |
+          <a href="#" style="color: white"
+            ><i class="fa-brands fa-instagram"></i>Instagram</a
+          >
+        </p>
+        <p>
+          Contact us:
+          <a href="mailto:support@gamehub.com" style="color: white"
+            >support@gamehub.com</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../shared/script.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
