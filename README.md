@@ -17,7 +17,7 @@ A collection of classic web-based games built with HTML, CSS, and JavaScript. Pl
 
 | Game | Description | Features |
 |------|-------------|----------|
-| **Tic-Tac-Toe** | Classic 3x3 grid strategy game | Two-player mode, win detection |
+| **Tic-Tac-Toe** | Classic 3x3 grid strategy game | Play with Computer, win detection |
 | **Rock Paper Scissors** | Traditional hand game against computer | Score tracking, animated results |
 | **Flip Coin Toss** | Simple coin flipping simulator | Heads/tails animation, streak counter |
 | **Sudoku** | Number puzzle with multiple difficulty levels | Auto-validation, hint system |
