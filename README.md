@@ -24,7 +24,7 @@ A collection of classic web-based games built with HTML, CSS, and JavaScript. Pl
 | **Snake Game** | Classic snake growing game | High score tracking, smooth controls |
 | **Typing Test** | Speed and accuracy typing assessment | WPM calculation, multiple time modes |
 | **2048** | Number combining puzzle game | Smooth animations, best score saving |
-| **Dot and Boxes** | Strategic paper-and-pencil game | Two-player mode, score tracking |
+| **Dot and Boxes** | Strategic paper-and-pencil game | Two-player mode, vs computer mode, score tracking |
 | **Ludo** | Classic board game for family fun | Multiplayer support, dice rolling |
 
 ##  Built With
