@@ -119,201 +119,184 @@
     </header>
 
     <main>
-      <div class="container">
-        <h1>🎲 LUDO GAME 🎲</h1>
-
-        <div class="game-header">
-            <div class="current-turn">
-                <h2 id="turn-text">Red Player's Turn</h2>
-            </div>
-            <div class="dice-section">
-                <div id="dice" class="dice">
-                    <div id="dice-number">?</div>
+     <div id="main">
+        <div id="board">
+            <div id="row1">
+                <div id="green">
+                    <div class="inner">
+                        <div id="upper">
+                            <div class="g_green" id="g_g1">
+                                <div id="g1" onclick="green.choose(1)"></div>
+                            </div>
+                            <div class="g_green" id="g_g2">
+                                <div id="g2" onclick="green.choose(2)"></div>
+                            </div>
+                        </div>
+                        <div id="lower">
+                            <div class="g_green" id="g_g3">
+                                <div id="g3" onclick="green.choose(3)"></div>
+                            </div>
+                            <div class="g_green" id="g_g4">
+                                <div id="g4" onclick="green.choose(4)"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <button id="roll-btn" class="btn-roll">ROLL DICE</button>
-                <div id="dice-message" class="message">Click to roll!</div>
+                <div id="yellow_move">
+                    <div class="box" id="24"></div>
+                    <div class="box" id="25"></div>
+                    <div class="box" id="26"></div>
+                    <div class="box" id="23"></div>
+                    <div class="box box-y" id="yf26"></div>
+                    <div class="box box-y" id="27"></div>
+                    <div class="box box-y" id="22"></div>
+                    <div class="box box-y" id="yf27"></div>
+                    <div class="box" id="28"></div>
+                    <div class="box" id="21"></div>
+                    <div class="box box-y" id="yf28"></div>
+                    <div class="box" id="29"></div>
+                    <div class="box" id="20"></div>
+                    <div class="box box-y" id="yf29"></div>
+                    <div class="box" id="30"></div>
+                    <div class="box" id="19"></div>
+                    <div class="box box-y" id="yf30"></div>
+                    <div class="box" id="31"></div>
+                </div>
+                <div id="yellow">
+                    <div class="inner">
+                        <div id="upper">
+                            <div class="g_yellow" id="g_y1">
+                                <div id="y1" onclick="yellow.choose(1)"></div>
+                            </div>
+                            <div class="g_yellow" id="g_y2">
+                                <div id="y2" onclick="yellow.choose(2)"></div>
+                            </div>
+                        </div>
+                        <div id="lower">
+                            <div class="g_yellow" id="g_y3">
+                                <div id="y3" onclick="yellow.choose(3)"></div>
+                            </div>
+                            <div class="g_yellow" id="g_y4">
+                                <div id="y4" onclick="yellow.choose(4)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="row2">
+                <div id="green_move">
+                    <div class="box" id="13"></div>
+                    <div class="box box-g" id="14"></div>
+                    <div class="box" id="15"></div>
+                    <div class="box" id="16"></div>
+                    <div class="box" id="17"></div>
+                    <div class="box" id="18"></div>
+                    <div class="box" id="12"></div>
+                    <div class="box box-g" id="gf13"></div>
+                    <div class="box box-g" id="gf14"></div>
+                    <div class="box box-g" id="gf15"></div>
+                    <div class="box box-g" id="gf16"></div>
+                    <div class="box box-g" id="gf17"></div>
+                    <div class="box" id="11"></div>
+                    <div class="box" id="10"></div>
+                    <div class="box box-g" id="9"></div>
+                    <div class="box" id="8"></div>
+                    <div class="box" id="7"></div>
+                    <div class="box" id="6"></div>
+                </div>
+                <div id="multicolor">
+                    <div class="triangle-up"></div>
+                </div>
+                <div id="blue_move">
+                    <div class="box" id="32"></div>
+                    <div class="box " id="33"></div>
+                    <div class="box" id="34"></div>
+                    <div class="box box-b" id="35"></div>
+                    <div class="box" id="36"></div>
+                    <div class="box" id="37"></div>
+                    <div class="box box-b" id="bf43"></div>
+                    <div class="box box-b" id="bf42"></div>
+                    <div class="box box-b" id="bf41"></div>
+                    <div class="box box-b" id="bf40"></div>
+                    <div class="box box-b" id="bf39"></div>
+                    <div class="box" id="38"></div>
+                    <div class="box" id="44"></div>
+                    <div class="box" id="43"></div>
+                    <div class="box" id="42"></div>
+                    <div class="box" id="41"></div>
+                    <div class="box box-b" id="40"></div>
+                    <div class="box" id="39"></div>
+                </div>
+            </div>
+            <div id="row3">
+                <div id="red">
+                    <div class="inner">
+                        <div id="upper">
+                            <div class="g_red" id="g_r1">
+                                <div id="r1" onclick="red.choose(1)"></div>
+                            </div>
+                            <div class="g_red" id="g_r2">
+                                <div id="r2" onclick="red.choose(2)"></div>
+                            </div>
+                        </div>
+                        <div id="lower">
+                            <div class="g_red" id="g_r3">
+                                <div id="r3" onclick="red.choose(3)"></div>
+                            </div>
+                            <div class="g_red" id="g_r4">
+                                <div id="r4" onclick="red.choose(4)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="red_move">
+                    <div class="box" id="5"></div>
+                    <div class="box box-r" id="rf56"></div>
+                    <div class="box" id="45"></div>
+                    <div class="box" id="4"></div>
+                    <div class="box box-r" id="rf55"></div>
+                    <div class="box" id="46"></div>
+                    <div class="box" id="3"></div>
+                    <div class="box box-r" id="rf54"></div>
+                    <div class="box" id="47"></div>
+                    <div class="box" id="2"></div>
+                    <div class="box box-r" id="rf53"></div>
+                    <div class="box box-r" id="48"></div>
+                    <div class="box box-r" id="1"></div>
+                    <div class="box box-r" id="rf52"></div>
+                    <div class="box" id="49"></div>
+                    <div class="box" id="52"></div>
+                    <div class="box" id="51"></div>
+                    <div class="box" id="50"></div>
+                </div>
+                <div id="blue">
+                    <div class="inner">
+                        <div id="upper">
+                            <div class="g_blue" id="g_b1">
+                                <div id="b1" onclick="blue.choose(1)"></div>
+                            </div>
+                            <div class="g_blue" id="g_b2">
+                                <div id="b2" onclick="blue.choose(2)"></div>
+                            </div>
+                        </div>
+                        <div id="lower">
+                            <div class="g_blue" id="g_b3">
+                                <div id="b3" onclick="blue.choose(3)"></div>
+                            </div>
+                            <div class="g_blue" id="g_b4">
+                                <div id="b4" onclick="blue.choose(4)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="game-board">
-            <svg id="board" width="600" height="600" viewBox="0 0 600 600">
-                <!-- Red Home -->
-                <rect x="20" y="20" width="240" height="240" fill="#ff4444" rx="10"/>
-                <circle cx="90" cy="90" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot red" data-player="red" data-piece="0"/>
-                <circle cx="190" cy="90" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot red" data-player="red" data-piece="1"/>
-                <circle cx="90" cy="190" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot red" data-player="red" data-piece="2"/>
-                <circle cx="190" cy="190" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot red" data-player="red" data-piece="3"/>
-
-                <!-- Blue Home -->
-                <rect x="340" y="20" width="240" height="240" fill="#4444ff" rx="10"/>
-                <circle cx="410" cy="90" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot blue" data-player="blue" data-piece="0"/>
-                <circle cx="510" cy="90" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot blue" data-player="blue" data-piece="1"/>
-                <circle cx="410" cy="190" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot blue" data-player="blue" data-piece="2"/>
-                <circle cx="510" cy="190" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot blue" data-player="blue" data-piece="3"/>
-
-                <!-- Green Home -->
-                <rect x="340" y="340" width="240" height="240" fill="#44ff44" rx="10"/>
-                <circle cx="410" cy="410" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot green" data-player="green" data-piece="0"/>
-                <circle cx="510" cy="410" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot green" data-player="green" data-piece="1"/>
-                <circle cx="410" cy="510" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot green" data-player="green" data-piece="2"/>
-                <circle cx="510" cy="510" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot green" data-player="green" data-piece="3"/>
-
-                <!-- Yellow Home -->
-                <rect x="20" y="340" width="240" height="240" fill="#ffff44" rx="10"/>
-                <circle cx="90" cy="410" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot yellow" data-player="yellow" data-piece="0"/>
-                <circle cx="190" cy="410" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot yellow" data-player="yellow" data-piece="1"/>
-                <circle cx="90" cy="510" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot yellow" data-player="yellow" data-piece="2"/>
-                <circle cx="190" cy="510" r="35" fill="white" stroke="#000" stroke-width="2" class="home-spot yellow" data-player="yellow" data-piece="3"/>
-
-                <!-- Center Triangle -->
-                <polygon points="300,220 380,300 300,380 220,300" fill="gold" stroke="#000" stroke-width="2"/>
-
-                <!-- Path Squares (simplified - 52 squares around board) -->
-                <!-- Bottom Row -->
-                <rect x="20" y="260" width="40" height="40" class="path" data-pos="0" fill="#f0f0f0" stroke="#333"/>
-                <rect x="60" y="260" width="40" height="40" class="path" data-pos="1" fill="#f0f0f0" stroke="#333"/>
-                <rect x="100" y="260" width="40" height="40" class="path" data-pos="2" fill="#f0f0f0" stroke="#333"/>
-                <rect x="140" y="260" width="40" height="40" class="path" data-pos="3" fill="#f0f0f0" stroke="#333"/>
-                <rect x="180" y="260" width="40" height="40" class="path" data-pos="4" fill="#f0f0f0" stroke="#333"/>
-                <rect x="220" y="260" width="40" height="40" class="path" data-pos="5" fill="#f0f0f0" stroke="#333"/>
-
-                <rect x="260" y="340" width="40" height="40" class="path safe" data-pos="6" fill="#ffffcc" stroke="#333"/>
-                <rect x="260" y="380" width="40" height="40" class="path" data-pos="7" fill="#f0f0f0" stroke="#333"/>
-                <rect x="260" y="420" width="40" height="40" class="path" data-pos="8" fill="#f0f0f0" stroke="#333"/>
-                <rect x="260" y="460" width="40" height="40" class="path" data-pos="9" fill="#f0f0f0" stroke="#333"/>
-                <rect x="260" y="500" width="40" height="40" class="path" data-pos="10" fill="#f0f0f0" stroke="#333"/>
-                <rect x="260" y="540" width="40" height="40" class="path" data-pos="11" fill="#f0f0f0" stroke="#333"/>
-
-                <!-- Bottom edge -->
-                <rect x="300" y="540" width="40" height="40" class="path" data-pos="12" fill="#f0f0f0" stroke="#333"/>
-                <rect x="340" y="540" width="40" height="40" class="path start" data-pos="13" fill="#ffff99" stroke="#333"/>
-
-                <rect x="340" y="500" width="40" height="40" class="path" data-pos="14" fill="#f0f0f0" stroke="#333"/>
-                <rect x="340" y="460" width="40" height="40" class="path" data-pos="15" fill="#f0f0f0" stroke="#333"/>
-                <rect x="340" y="420" width="40" height="40" class="path" data-pos="16" fill="#f0f0f0" stroke="#333"/>
-                <rect x="340" y="380" width="40" height="40" class="path" data-pos="17" fill="#f0f0f0" stroke="#333"/>
-                <rect x="340" y="340" width="40" height="40" class="path" data-pos="18" fill="#f0f0f0" stroke="#333"/>
-
-                <!-- Right column -->
-                <rect x="380" y="340" width="40" height="40" class="path" data-pos="19" fill="#f0f0f0" stroke="#333"/>
-                <rect x="420" y="340" width="40" height="40" class="path" data-pos="20" fill="#f0f0f0" stroke="#333"/>
-                <rect x="460" y="340" width="40" height="40" class="path" data-pos="21" fill="#f0f0f0" stroke="#333"/>
-                <rect x="500" y="340" width="40" height="40" class="path" data-pos="22" fill="#f0f0f0" stroke="#333"/>
-                <rect x="540" y="340" width="40" height="40" class="path" data-pos="23" fill="#f0f0f0" stroke="#333"/>
-
-                <rect x="540" y="300" width="40" height="40" class="path" data-pos="24" fill="#f0f0f0" stroke="#333"/>
-                <rect x="540" y="260" width="40" height="40" class="path start" data-pos="25" fill="#9999ff" stroke="#333"/>
-
-                <!-- Top right -->
-                <rect x="500" y="260" width="40" height="40" class="path" data-pos="26" fill="#f0f0f0" stroke="#333"/>
-                <rect x="460" y="260" width="40" height="40" class="path" data-pos="27" fill="#f0f0f0" stroke="#333"/>
-                <rect x="420" y="260" width="40" height="40" class="path" data-pos="28" fill="#f0f0f0" stroke="#333"/>
-                <rect x="380" y="260" width="40" height="40" class="path" data-pos="29" fill="#f0f0f0" stroke="#333"/>
-                <rect x="340" y="260" width="40" height="40" class="path" data-pos="30" fill="#f0f0f0" stroke="#333"/>
-
-                <!-- Top row -->
-                <rect x="340" y="220" width="40" height="40" class="path safe" data-pos="31" fill="#ccffcc" stroke="#333"/>
-                <rect x="340" y="180" width="40" height="40" class="path" data-pos="32" fill="#f0f0f0" stroke="#333"/>
-                <rect x="340" y="140" width="40" height="40" class="path" data-pos="33" fill="#f0f0f0" stroke="#333"/>
-                <rect x="340" y="100" width="40" height="40" class="path" data-pos="34" fill="#f0f0f0" stroke="#333"/>
-                <rect x="340" y="60" width="40" height="40" class="path" data-pos="35" fill="#f0f0f0" stroke="#333"/>
-                <rect x="340" y="20" width="40" height="40" class="path" data-pos="36" fill="#f0f0f0" stroke="#333"/>
-
-                <rect x="300" y="20" width="40" height="40" class="path" data-pos="37" fill="#f0f0f0" stroke="#333"/>
-                <rect x="260" y="20" width="40" height="40" class="path start" data-pos="38" fill="#99ff99" stroke="#333"/>
-
-                <!-- Top left -->
-                <rect x="260" y="60" width="40" height="40" class="path" data-pos="39" fill="#f0f0f0" stroke="#333"/>
-                <rect x="260" y="100" width="40" height="40" class="path" data-pos="40" fill="#f0f0f0" stroke="#333"/>
-                <rect x="260" y="140" width="40" height="40" class="path" data-pos="41" fill="#f0f0f0" stroke="#333"/>
-                <rect x="260" y="180" width="40" height="40" class="path" data-pos="42" fill="#f0f0f0" stroke="#333"/>
-                <rect x="260" y="220" width="40" height="40" class="path" data-pos="43" fill="#f0f0f0" stroke="#333"/>
-
-                <!-- Left column -->
-                <rect x="220" y="220" width="40" height="40" class="path safe" data-pos="44" fill="#ffcccc" stroke="#333"/>
-                <rect x="180" y="220" width="40" height="40" class="path" data-pos="45" fill="#f0f0f0" stroke="#333"/>
-                <rect x="140" y="220" width="40" height="40" class="path" data-pos="46" fill="#f0f0f0" stroke="#333"/>
-                <rect x="100" y="220" width="40" height="40" class="path" data-pos="47" fill="#f0f0f0" stroke="#333"/>
-                <rect x="60" y="220" width="40" height="40" class="path" data-pos="48" fill="#f0f0f0" stroke="#333"/>
-                <rect x="20" y="220" width="40" height="40" class="path" data-pos="49" fill="#f0f0f0" stroke="#333"/>
-
-                <rect x="20" y="300" width="40" height="40" class="path start" data-pos="50" fill="#ff9999" stroke="#333"/>
-                <rect x="60" y="300" width="40" height="40" class="path" data-pos="51" fill="#f0f0f0" stroke="#333"/>
-
-                <!-- Game Pieces -->
-                <circle id="red-0" cx="90" cy="90" r="15" class="piece red" data-player="red" data-piece="0" data-pos="-1"/>
-                <circle id="red-1" cx="190" cy="90" r="15" class="piece red" data-player="red" data-piece="1" data-pos="-1"/>
-                <circle id="red-2" cx="90" cy="190" r="15" class="piece red" data-player="red" data-piece="2" data-pos="-1"/>
-                <circle id="red-3" cx="190" cy="190" r="15" class="piece red" data-player="red" data-piece="3" data-pos="-1"/>
-
-                <circle id="blue-0" cx="410" cy="90" r="15" class="piece blue" data-player="blue" data-piece="0" data-pos="-1"/>
-                <circle id="blue-1" cx="510" cy="90" r="15" class="piece blue" data-player="blue" data-piece="1" data-pos="-1"/>
-                <circle id="blue-2" cx="410" cy="190" r="15" class="piece blue" data-player="blue" data-piece="2" data-pos="-1"/>
-                <circle id="blue-3" cx="510" cy="190" r="15" class="piece blue" data-player="blue" data-piece="3" data-pos="-1"/>
-
-                <circle id="green-0" cx="410" cy="410" r="15" class="piece green" data-player="green" data-piece="0" data-pos="-1"/>
-                <circle id="green-1" cx="510" cy="410" r="15" class="piece green" data-player="green" data-piece="1" data-pos="-1"/>
-                <circle id="green-2" cx="410" cy="510" r="15" class="piece green" data-player="green" data-piece="2" data-pos="-1"/>
-                <circle id="green-3" cx="510" cy="510" r="15" class="piece green" data-player="green" data-piece="3" data-pos="-1"/>
-
-                <circle id="yellow-0" cx="90" cy="410" r="15" class="piece yellow" data-player="yellow" data-piece="0" data-pos="-1"/>
-                <circle id="yellow-1" cx="190" cy="410" r="15" class="piece yellow" data-player="yellow" data-piece="1" data-pos="-1"/>
-                <circle id="yellow-2" cx="90" cy="510" r="15" class="piece yellow" data-player="yellow" data-piece="2" data-pos="-1"/>
-                <circle id="yellow-3" cx="190" cy="510" r="15" class="piece yellow" data-player="yellow" data-piece="3" data-pos="-1"/>
-            </svg>
+        <div id="dice">
+            <button id="die" onclick="roll.roll();"></button>
+            <div id="message"></div>
         </div>
+        <div id="out">
 
-        <div class="game-info">
-            <div class="player-card red-card">
-                <h3>🔴 Red Player</h3>
-                <p>Home: <span id="red-home">4</span></p>
-                <p>Safe: <span id="red-safe">0</span></p>
-            </div>
-            <div class="player-card blue-card">
-                <h3>🔵 Blue Player</h3>
-                <p>Home: <span id="blue-home">4</span></p>
-                <p>Safe: <span id="blue-safe">0</span></p>
-            </div>
-            <div class="player-card green-card">
-                <h3>🟢 Green Player</h3>
-                <p>Home: <span id="green-home">4</span></p>
-                <p>Safe: <span id="green-safe">0</span></p>
-            </div>
-            <div class="player-card yellow-card">
-                <h3>🟡 Yellow Player</h3>
-                <p>Home: <span id="yellow-home">4</span></p>
-                <p>Safe: <span id="yellow-safe">0</span></p>
-            </div>
-        </div>
-
-        <div class="controls">
-            <button id="new-game" class="btn">New Game</button>
-            <button id="rules" class="btn">How to Play</button>
-        </div>
-    </div>
-
-    <!-- Rules Modal -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>How to Play Ludo</h2>
-            <ul>
-                <li>🎲 Each player has 4 pieces starting in their home base</li>
-                <li>🎯 Roll a 6 to move a piece out of home onto the starting square</li>
-                <li>➡️ Move pieces clockwise around the board</li>
-                <li>⚔️ Land on an opponent's piece to send it back home</li>
-                <li>⭐ Safe squares (colored) protect your pieces</li>
-                <li>🎁 Rolling a 6 gives you another turn</li>
-                <li>🏆 First to get all 4 pieces to the center wins!</li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- Winner Modal -->
-    <div id="winner-modal" class="modal">
-        <div class="modal-content">
-            <h2 id="winner-text">🎉 Winner! 🎉</h2>
-            <button id="play-again" class="btn">Play Again</button>
         </div>
     </div>
     </main>
