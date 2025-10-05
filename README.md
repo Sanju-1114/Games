@@ -25,7 +25,7 @@ A collection of classic web-based games built with HTML, CSS, and JavaScript. Pl
 | **Typing Test** | Speed and accuracy typing assessment | WPM calculation, multiple time modes |
 | **2048** | Number combining puzzle game | Smooth animations, best score saving |
 | **Dot and Boxes** | Strategic paper-and-pencil game | Two-player mode, vs computer mode, score tracking |
-| **Ludo** | Classic board game for family fun | Multiplayer support, dice rolling |
+| **Ludo** | Classic board game for family fun | Multiplayer support, dice rolling with proper animation |
 
 ##  Built With
 
