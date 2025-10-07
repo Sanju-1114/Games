@@ -116,12 +116,6 @@ Contributions are welcome! Here's how you can help:
 - ✅ Edge
 - ⚠️ Internet Explorer (limited support)
 
-##  Acknowledgments
-
-- Bootstrap team for the excellent CSS framework
-- Font Awesome for the beautiful icons
-- jsDelivr for fast CDN hosting
-- Classic game creators for inspiration
 
 ---
 
