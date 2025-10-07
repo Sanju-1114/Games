@@ -101,6 +101,8 @@ Contributions are welcome! Here's how you can help:
 - Add sound effects
 - Implement multiplayer features
 - Create game tutorials
+- Make UI better which currently
+
 
 ##  Known Issues
 
