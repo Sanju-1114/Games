@@ -10,11 +10,11 @@ A simple and addictive puzzle game built using HTML, CSS, and JavaScript. Swipe 
 
 ##  File Structure
 ```structure
-2048-game/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+2048/
+├── index.html       # Main HTML file
+├── style.css        # Styling and layout
+├── script.js        # Game logic
+└── README.md        # Project documentation
 ```
 ## How to Play
 - Use arrow keys (or swipe on mobile) to move tiles.
