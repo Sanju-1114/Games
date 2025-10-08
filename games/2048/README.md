@@ -16,3 +16,9 @@ A simple and addictive puzzle game built using HTML, CSS, and JavaScript. Swipe 
 ├── script.js
 └── README.md
 ```
+## How to Play
+- Use arrow keys (or swipe on mobile) to move tiles.
+- When two tiles with the same number touch, they merge into one.
+- Reach the 2048 tile to win the game.
+- The game ends when no moves are left.
+
