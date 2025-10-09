@@ -21,4 +21,5 @@ dots-and-boxes/
 - CSS3
 - JavaScript (Vanilla)
 
-
+## Credits
+Created by Sanjeev
