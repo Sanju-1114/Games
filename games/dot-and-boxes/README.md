@@ -16,3 +16,9 @@ dots-and-boxes/
 ├── style.css        # Game styling
 └── script.js        # Game logic
 ```
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+
