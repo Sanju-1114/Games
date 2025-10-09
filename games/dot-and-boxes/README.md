@@ -8,3 +8,11 @@ A classic **Dots and Boxes** game implemented using **HTML**, **CSS**, and **Jav
 - Automatic box detection and scoring
 - Responsive design with clean UI
 - Restart game functionality
+
+## File Structure
+```
+dots-and-boxes/
+├── index.html       # Main game layout
+├── style.css        # Game styling
+└── script.js        # Game logic
+```
