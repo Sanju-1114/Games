@@ -1,11 +1,9 @@
 #  GameHub
 
 **Your Ultimate Online Gaming Destination**
-
 A collection of classic web-based games built with HTML, CSS, and JavaScript. Play, compete, and have fun with a variety of entertaining games all in one place!
 
 ##  Features
-
 - **9 Classic Games** - From Tic-Tac-Toe to 2048, enjoy timeless favorites
 - **Responsive Design** - Play seamlessly on desktop, tablet, and mobile devices
 - **Clean Interface** - Modern, intuitive user experience with Bootstrap styling
@@ -13,7 +11,7 @@ A collection of classic web-based games built with HTML, CSS, and JavaScript. Pl
 - **Score Tracking** - Local storage for high scores and game progress
 - **Fast Loading** - Optimized performance with CDN resources
 
-## 🎯 Available Games
+##  Available Games
 
 | Game | Description | Features |
 |------|-------------|----------|
@@ -103,6 +101,8 @@ Contributions are welcome! Here's how you can help:
 - Add sound effects
 - Implement multiplayer features
 - Create game tutorials
+- Make UI better which currently
+
 
 ##  Known Issues
 
@@ -118,12 +118,6 @@ Contributions are welcome! Here's how you can help:
 - ✅ Edge
 - ⚠️ Internet Explorer (limited support)
 
-##  Acknowledgments
-
-- Bootstrap team for the excellent CSS framework
-- Font Awesome for the beautiful icons
-- jsDelivr for fast CDN hosting
-- Classic game creators for inspiration
 
 ---
 
