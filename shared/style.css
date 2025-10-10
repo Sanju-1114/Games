@@ -1,67 +1,107 @@
 /* HEADER */
 .navbar {
-    background-color: rgb(55, 47, 47);
+  background-color: rgb(55, 47, 47);
 }
 
 .nav-bg-colour {
-    --bs-bg-opacity: 1;
-    background-color: rgb(101 118 135) !important;
+  --bs-bg-opacity: 1;
+  background-color: rgb(101 118 135) !important;
 }
 
 .btn-outline-light {
-    --bs-btn-hover-bg: #76c378;
+  --bs-btn-hover-bg: #76c378;
 }
 
-
 .logo {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    margin: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10px;
 }
 
 /* MAIN */
 main {
-    flex-grow: 1; /* Allows the main content to expand and push the footer down */
-    margin-top: 80px;
-    padding: 20px;
+  flex-grow: 1; /* Allows the main content to expand and push the footer down */
+  margin-top: 80px;
+  padding: 20px;
 }
 
 section {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-#introduction{
-    text-align: center;
+#introduction {
+  text-align: center;
 }
 
 .container {
-    text-align: center !important;
-    margin-top: 50px;
+  text-align: center !important;
+  margin-top: 50px;
 }
 
 h2 {
-    color: #333;
+  color: #333;
 }
 
-.col{
-   margin-bottom: 2rem;
+.col {
+  margin-bottom: 2rem;
 }
 
 .card {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* FOOTER */
 footer {
-    background-color: rgb(101, 118, 135);
-    color: white;
-    text-align: center;
-    padding: 10px;
+  background-color: rgb(101, 118, 135);
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
 .footer-content {
-    max-width: 800px;
-    margin: 0 auto;
-    
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* about page  */
+
+.team-list li {
+  font-size: 1.1rem;
+  padding-left: 0.5rem;
+  border-left: 3px solid #0d6efd;
+  margin-bottom: 1rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+.mb-4 {
+  margin-top: 80px;
+}
+main h1 {
+  font-weight: 700;
+  color: #0d6efd;
+  letter-spacing: 1px;
+}
+
+main h3 {
+  color: #198754;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+main p {
+  color: #333;
+  line-height: 1.7;
+}
+
+@media (max-width: 767px) {
+  main .col-md-8,
+  main .col-md-4 {
+    text-align: center;
+  }
+  .team-list li {
+    border-left: none;
+    border-top: 3px solid #0d6efd;
+    padding-left: 0;
+    padding-top: 0.5rem;
+  }
 }
