@@ -45,3 +45,10 @@ The randomness is handled using JavaScript’s `Math.random()` function.
 
 - ### Clone this repository
 - ### Open the project folder
+---
+
+## Future Enhancements
+
+- Add sound effects 
+- Track number of heads/tails outcomes 📊
+- Add multiple coin flips at once 🪙🪙🪙
