@@ -13,4 +13,14 @@ It visually flips a coin and displays the result — **Heads** or **Tails** — 
 
 ---
 
+## Project Structure 
+```
+flip-coin-toss/
+│
+├── index.html # Main HTML file
+├── style.css # Styling and animation
+├── script.js # Flip logic and DOM handling
+```
+---
+
 
