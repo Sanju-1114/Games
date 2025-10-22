@@ -52,3 +52,8 @@ The randomness is handled using JavaScript’s `Math.random()` function.
 - Add sound effects 
 - Track number of heads/tails outcomes 📊
 - Add multiple coin flips at once 🪙🪙🪙
+--- 
+
+## License
+
+This project is licensed under the MIT License — free to use and modify
