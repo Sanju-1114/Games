@@ -23,4 +23,25 @@ flip-coin-toss/
 ```
 ---
 
+## How It Works
 
+1. Click on the **Flip Coin** button.  
+2. The coin animates with a flipping effect.  
+3. After animation, it randomly shows **Heads** or **Tails**.  
+
+The randomness is handled using JavaScript’s `Math.random()` function.
+
+---
+
+## Technologies Used
+
+- **HTML5** – Structure of the page  
+- **CSS3** – Coin design and animation  
+- **JavaScript (ES6)** – Flip logic and random result generation  
+
+---
+
+##  Getting Started
+
+- ### Clone this repository
+- ### Open the project folder
