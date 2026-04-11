@@ -29,6 +29,8 @@ A collection of classic web-based games built with HTML, CSS, and JavaScript. Pl
 | **Dot and Boxes** | Strategic paper-and-pencil game | Two-player mode, vs computer mode, score tracking |
 | **Ludo** | Classic board game for family fun | Multiplayer support, dice rolling with proper animation |
 
+---
+
 ##  Built With
 
 - **HTML5** - Semantic markup and structure
