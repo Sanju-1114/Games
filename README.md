@@ -13,6 +13,8 @@ A collection of classic web-based games built with HTML, CSS, and JavaScript. Pl
 - **Score Tracking** - Local storage for high scores and game progress
 - **Fast Loading** - Optimized performance with CDN resources
 
+---
+
 ##  Available Games
 
 | Game | Description | Features |
