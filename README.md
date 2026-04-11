@@ -3,6 +3,8 @@
 **Your Ultimate Online Gaming Destination**
 A collection of classic web-based games built with HTML, CSS, and JavaScript. Play, compete, and have fun with a variety of entertaining games all in one place!
 
+---
+
 ##  Features
 - **9 Classic Games** - From Tic-Tac-Toe to 2048, enjoy timeless favorites
 - **Responsive Design** - Play seamlessly on desktop, tablet, and mobile devices
