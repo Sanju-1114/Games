@@ -42,7 +42,7 @@ A collection of classic web-based games built with HTML, CSS, and JavaScript. Pl
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```file
 PlayGame/
 ├── index.html # Homepage
@@ -62,7 +62,9 @@ PlayGame/
 └── script.js # Shared functionality
 ```
 
-## 🚀 Getting Started
+---
+
+## Getting Started
 
 1. **Clone the repository:**
 ```bash
