@@ -78,6 +78,9 @@ Simply open `index.html` in your web browser
 3. **Start playing:**
 Click on any game card to start playing!
 
+
+---
+
 ##  Local Development
 
 No build process required! This is a pure frontend project:
