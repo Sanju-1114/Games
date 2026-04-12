@@ -40,6 +40,8 @@ A collection of classic web-based games built with HTML, CSS, and JavaScript. Pl
 - **Font Awesome 6.6.0** - Icon library
 - **CDN Resources** - Fast loading via jsDelivr
 
+---
+
 ## 📁 Project Structure
 ```file
 PlayGame/
