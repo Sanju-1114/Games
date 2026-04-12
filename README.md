@@ -89,6 +89,9 @@ No build process required! This is a pure frontend project:
 - Refresh browser to see changes
 - All games work offline once loaded
 
+
+---
+
 ##  How to Play
 
 Each game includes:
