@@ -100,6 +100,8 @@ Each game includes:
 - **Responsive design** for all devices
 - **Score tracking** where applicable
 
+---
+
 ## Contributing
 
 Contributions are welcome! Here's how you can help:
