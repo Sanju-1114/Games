@@ -124,6 +124,8 @@ Contributions are welcome! Here's how you can help:
 - Make UI better which currently
 
 
+---
+
 ##  Known Issues
 
 - Some games may not save progress in incognito mode
