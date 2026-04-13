@@ -132,6 +132,8 @@ Contributions are welcome! Here's how you can help:
 - Mobile touch controls could be improved for certain games
 - High scores are stored locally (not synced across devices)
 
+---
+
 ##  Browser Compatibility
 
 - ✅ Chrome (recommended)
