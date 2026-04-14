@@ -138,8 +138,8 @@ Contributions are welcome! Here's how you can help:
 
 - Chrome (recommended)
 - Firefox
-- ✅ Safari
-- ✅ Edge
+- Safari
+- Edge
 - ⚠️ Internet Explorer (limited support)
 
 
