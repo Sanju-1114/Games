@@ -140,7 +140,7 @@ Contributions are welcome! Here's how you can help:
 - Firefox
 - Safari
 - Edge
-- ⚠️ Internet Explorer (limited support)
+- Internet Explorer (limited support)
 
 
 ---
