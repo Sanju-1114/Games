@@ -136,7 +136,7 @@ Contributions are welcome! Here's how you can help:
 
 ##  Browser Compatibility
 
-- ✅ Chrome (recommended)
+- Chrome (recommended)
 - ✅ Firefox
 - ✅ Safari
 - ✅ Edge
